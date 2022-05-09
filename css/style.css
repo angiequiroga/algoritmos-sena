@@ -1,0 +1,60 @@
+body {
+margin: 0;
+background: url(../img/anime.jpg);
+background-size: cover;
+
+width: 100%;
+height: 100vh;
+text-align: center;
+padding-top: 120px;
+
+
+}
+
+#contenedor  h1{
+    color: aliceblue;
+    font-size: 50px;
+    text-transform: uppercase;
+
+
+}
+
+#contenedor p{
+font-size: 24px;
+font-weight: 600;
+
+
+
+}
+
+#contenedor{
+width: 80%;
+padding: 100px;
+background: rgba(19, 62, 78, 0);
+margin: 0 auto; 
+
+/* estilo del boton en estado hover*/
+}
+
+#contenedor button {
+    padding: 8px 20px;
+background: transparent;
+border: 2px solid rgb(190, 35, 211) ;
+color: aqua;
+font-size: 30px;
+cursor: pointer;
+transition: .5s;
+
+
+
+}
+/* estilo del boton en estado hover*/
+#contenedor button:hover {
+    background: royalblue;
+    padding: 8px 40px;
+
+
+
+
+
+}
